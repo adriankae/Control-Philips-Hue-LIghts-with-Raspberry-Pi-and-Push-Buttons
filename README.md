@@ -66,11 +66,25 @@ Use 10k resistors and wire up everything like on the schematics.
 
 ### Step 3: Install the PHUE library
 
+Just open up a terminal and type:
+
+`pip install phue`
+
+Now you are good to run the code! 
 
 ### Step 4: Run the code
 
+Just clone the repository or download it to your computer. 
+Open a terminal and navigate to the folder where the python file is located and run it with
+
+`python hue_control.py`
+
+The video in the next sections shows the setup in action. Enjoy!
 
 ## Video
 
 
 ## Further pictures
+
+![Actual Setup 1](https://github.com/adriankae/Control-Philips-Hue-Lights-with-Raspberry-Pi-and-Push-Buttons/blob/main/IMG_0444.jpeg "Setup 1")
+![Actual Setup 2](https://github.com/adriankae/Control-Philips-Hue-Lights-with-Raspberry-Pi-and-Push-Buttons/blob/main/IMG_0445.jpeg "Setup 2")
