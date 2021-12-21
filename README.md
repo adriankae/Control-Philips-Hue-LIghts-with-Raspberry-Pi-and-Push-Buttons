@@ -32,3 +32,19 @@ I realise that there are some expensive components included but I already had mo
 
 In order to talk to our Hue Bridge we need its IP address.
 We can get it from the FRITZ!Box or from our router or DHCP server if we have access to those.
+
+Another easy way to get the IP address with your raspberry pi is this:
+
+Install nmap by opening the terminal and typing
+'sudo apt install nmap'
+and then running the command
+'namp -sP 192.168.178.0/24'
+
+Adjust the IP address for your own network. 
+
+The output looks something like this:
+'Starting Nmap 7.80 ( https://nmap.org ) at 2021-12-21 20:34 CET
+Nmap scan report for fritz.box (192.168.178.1)
+Host is up (0.0089s latency).
+Nmap scan report for homebridge.fritz.box (192.168.178.21)
+Host is up (0.0072s latency).'
