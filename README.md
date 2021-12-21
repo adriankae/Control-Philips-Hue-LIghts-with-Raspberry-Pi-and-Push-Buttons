@@ -20,3 +20,5 @@ It's a complete list with amazon affiliate links:
 - [Push Buttons](https://amzn.to/3EeDQ4b)
 
 I realise that there are some expensive components included but I already had most of it at home. You may have some equipment already, too.
+
+## Getting Started
