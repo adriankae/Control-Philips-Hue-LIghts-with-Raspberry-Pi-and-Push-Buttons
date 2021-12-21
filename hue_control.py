@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# v0.02: incorporates a push button with a toggle mode for on and off.
+# incorporates a push button with a toggle mode for on and off.
 # mapping:
 # GPIO15: Toggle on/off
 # GPIO17: Brightness lower
@@ -12,16 +12,20 @@ from gpiozero import Button
 from phue import Bridge
 import time
 
-hue_ip = '192.168.178.40'
+# enter the ip address of your hue bridge here:
+hue_ip = '192.168.XXX.XX'
 
 b = Bridge(hue_ip)
 
+
+# define all the buttons
 btn_toggle = Button(15)
 btn_bri_lower = Button(17)
 btn_bri_higher = Button(18)
 btn_ct_lower = Button(22)
 btn_ct_higher = Button(23)
 
+# constants for value changes
 brightness_change = 20
 ct_change = 20
 
@@ -37,8 +41,8 @@ lights = b.lights
 for l in lights:
     print(l.name)
 
-# hue_light = 'Hue ambiance spot 15'
-hue_light = 'Schreibtischlampe'
+# enter the light you want to change here from the list that is printed above:
+hue_light = 'Name of your lamp like Hue Spot Ambience 123'
 
 current_brightness = b.get_light(hue_light, 'bri')
 current_ct = b.get_light(hue_light, 'ct')
