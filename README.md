@@ -22,3 +22,13 @@ It's a complete list with amazon affiliate links:
 I realise that there are some expensive components included but I already had most of it at home. You may have some equipment already, too.
 
 ## Getting Started
+
+### Step 0: Assumptions & Preconditions
+- Your Rapberry Pi is running the newest version of Raspbian
+- Your Router, Hue Bridge and Hue Lamp are connected and set up and it is possible to control the light via the Philips Hue App or your Smart Home App of choide (Apple Home, etc.)
+- You have physical access to the Hue Bridge
+
+### Step 1: Get your Hue Bridge's IP address
+
+In order to talk to our Hue Bridge we need its IP address.
+We can get it from the FRITZ!Box or from our router or DHCP server if we have access to those.
