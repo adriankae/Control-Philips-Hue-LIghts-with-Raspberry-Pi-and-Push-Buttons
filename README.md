@@ -61,4 +61,4 @@ Now that you have the IP address of your hue bridge write it down. We're gonna n
 Here is a wiring diagram. 
 Use 10k resistors and wire up everything like on the schematics. 
 
-![Wiring diagram!](/assets/images/san-juan-mountains.jpg "Wiring diagram")
+![Wiring diagram!](https://github.com/adriankae/Control-Philips-Hue-Lights-with-Raspberry-Pi-and-Push-Buttons/blob/main/wiring_pi.png "Wiring diagram")
