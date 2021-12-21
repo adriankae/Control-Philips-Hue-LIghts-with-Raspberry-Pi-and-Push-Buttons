@@ -39,15 +39,26 @@ Install nmap by opening the terminal and typing
 
 `sudo apt install nmap`
 
-and then running the command
+and then run the command
 
 `namp -sP 192.168.178.0/24`
 
 Adjust the IP address for your own network. 
 
 The output looks something like this:
-  `Starting Nmap 7.80 ( https://nmap.org ) at 2021-12-21 20:34 CET
-  Nmap scan report for fritz.box (192.168.178.1)
-  Host is up (0.0089s latency).
-  Nmap scan report for homebridge.fritz.box (192.168.178.21)
-  Host is up (0.0072s latency).
+```
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-12-21 20:34 CET
+Nmap scan report for fritz.box (192.168.178.1)
+Host is up (0.0089s latency).
+Nmap scan report for homebridge.fritz.box (192.168.178.21)
+Host is up (0.0072s latency).
+```
+  
+Now that you have the IP address of your hue bridge write it down. We're gonna need it for the code.
+
+### Step 2: Wire up your Pi
+
+Here is a wiring diagram. 
+Use 10k resistors and wire up everything like on the schematics. 
+
+![Wiring diagram!](/assets/images/san-juan-mountains.jpg "Wiring diagram")
