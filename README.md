@@ -1,4 +1,4 @@
-# Control-Philips-Hue-LIghts-with-Raspberry-Pi-and-Push-Buttons
+# Control-Philips-Hue-Lights-with-Raspberry-Pi-and-Push-Buttons
 
 With this set up you can control any Light Bulb connected to your Philips Hue Bridge. 
 You can toggle the light, change the brightness and change the color temperature.
@@ -36,15 +36,18 @@ We can get it from the FRITZ!Box or from our router or DHCP server if we have ac
 Another easy way to get the IP address with your raspberry pi is this:
 
 Install nmap by opening the terminal and typing
+
 `sudo apt install nmap`
+
 and then running the command
+
 `namp -sP 192.168.178.0/24`
 
 Adjust the IP address for your own network. 
 
 The output looks something like this:
-`Starting Nmap 7.80 ( https://nmap.org ) at 2021-12-21 20:34 CET
-Nmap scan report for fritz.box (192.168.178.1)
-Host is up (0.0089s latency).
-Nmap scan report for homebridge.fritz.box (192.168.178.21)
-Host is up (0.0072s latency).
+  `Starting Nmap 7.80 ( https://nmap.org ) at 2021-12-21 20:34 CET
+  Nmap scan report for fritz.box (192.168.178.1)
+  Host is up (0.0089s latency).
+  Nmap scan report for homebridge.fritz.box (192.168.178.21)
+  Host is up (0.0072s latency).
