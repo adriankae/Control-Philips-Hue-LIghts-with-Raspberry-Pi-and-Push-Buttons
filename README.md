@@ -6,6 +6,9 @@ Here you can learn how!
 
 ## Components you need
 
+All the componentes you need for realising this project. 
+It's a complete list with amazon affiliate links:
+
 - [Raspberry Pi 4 (or 3 or 2 or Zero W)](https://amzn.to/3pfbdiW) 
 - [Mouse & Keyboard](https://amzn.to/3FhlSj1)
 - [Monitor](https://amzn.to/32lkzkk)
@@ -16,4 +19,4 @@ Here you can learn how!
 - [10k Resistors](https://amzn.to/3EnyNPa)
 - [Push Buttons](https://amzn.to/3EeDQ4b)
 
-I realise that there's some expensive components included but I already had most of it at home. You may have some equipment already, too.
+I realise that there are some expensive components included but I already had most of it at home. You may have some equipment already, too.
